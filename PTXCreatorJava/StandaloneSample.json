@@ -1,0 +1,22 @@
+{
+	"command": "extractptx",
+	"company": "KPIT",
+	"productName": "OAS2.0",
+	"productVersion": "1.23",
+	"ptxFile": "D:/zipTest/StandaloneCreated.ptx",
+	"locationToExtract": "D:/zipTest/",
+	"compliance": "KPIT",
+	"password": "Testing",
+	"excludeList": [
+		"map"
+	],
+	"packageBundleMap": [
+		{
+			"rootProjectDirectory": "D:/zipTest/test",
+			"packages": [
+				"/src",
+				"/bin"
+			]
+		}
+	]
+}

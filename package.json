@@ -1,0 +1,24 @@
+{
+  "name": "ptx-creator",
+  "version": "1.0.0",
+  "description": "PTX Container creator for OTX Projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jose.jimenez@kpit.com",
+  "license": "SEE LICENSE IN license.txt",
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/adm-zip": "^0.4.31",
+    "@types/node": "^10.5.2",
+    "@types/xmlbuilder": "0.0.32",
+    "adm-zip": "^0.4.11",
+    "xmlbuilder": "^10.0.0"
+  }
+}
